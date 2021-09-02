@@ -1,4 +1,4 @@
-This code is to generate original features for SDM-VQA based on the previous work (FAST, 2019-TMM).
+This code is to generate original features for SDM-VQA based on the previous work ([FAST, 2019-TMM](https://github.com/Sissuire/FAST-VQA)).
 
 To run the code, OpenCV is requested and in current version, we used OpenCV 2.4.13. 
 
