@@ -1,0 +1,16 @@
+database:
+    db_path: '/mnt/disk/yongxu_liu/datasets/'  # path for dataset
+    data_path: './matlab/iFAST_key_10/' # path for info extracted
+    db_name: 'IVC-IC'
+    info_file: '_list_for_VQA.txt'
+    train_size: 0.8
+
+model:
+    model: VQA_model.FR_serial_dependence
+    opt_scheme: adam
+    lr: 5e-4
+    train_batch_size: 6
+    test_batch_size: 24
+    epochs: 200
+    test_freq: 5
+    save_freq: 1
