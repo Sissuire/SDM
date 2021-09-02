@@ -14,7 +14,7 @@ class _dataset_(object):
 
         self.db_name = db_config.get('db_name', 'LIVE')
         self.info_file = self.db_name + db_config.get('info_file', '_list_for_VQA.txt')
-        self.data_path = db_config.get('data_path', '/mnt/disk/yongxu_liu/workspace/temporal_relation_diving/test_space_iFAST_kp/iFAST_key_10/')
+        self.data_path = db_config.get('data_path', './matlab/iFAST_key_10/')
         self.base_path = db_config.get('base_path', '/mnt/disk/yongxu_liu/datasets/') + self.db_name + '/'
 
         self.tr_te_r = float(db_config.get('train_size', 0.8))
