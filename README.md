@@ -18,6 +18,12 @@ Example code would be seen in `demo_loop.py` or `demo_IVC-IC.py`. More details c
 
 *** In current work, we only validate the performance on FR-VQA, but we hope this work could be transferred into broader scenarios (for example, UGC-VQA, or others). It is easy to reserve the second step but substitute the first step with specific modeling. ***
 
+
+### Environment
+
+The method is implemented with MATLAB R2016a, OpenCV 2.4.13 on windows for feature extraction, and PyTorch 1.1.0, numpy 1.14.3 on Ubuntu for sequential modeling. Different versions may occur slight changes in performance.
+
+
 ### Cite
 
 If you are interested in the work, or find the code helpful, please cite our work
