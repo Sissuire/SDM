@@ -16,7 +16,7 @@ The model consists of two parts:
 
 Example code would be seen in `demo_loop.py` or `demo_IVC-IC.py`. More details can be determined with a step-by-step running in debug mode. If you are only interested in the implementation of `A-LSTM` or `attention`, please check them in the file `./model/rnn_imp.py`.
 
-***In current work, we only validate the performance on FR-VQA, but we hope this work could be transferred into broader scenarios (for example, UGC-VQA, or others). It is easy to reserve the second step but substitute the first step with specific modeling. ***
+*** In current work, we only validate the performance on FR-VQA, but we hope this work could be transferred into broader scenarios (for example, UGC-VQA, or others). It is easy to reserve the second step but substitute the first step with specific modeling. ***
 
 ### Cite
 
