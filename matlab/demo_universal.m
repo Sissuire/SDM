@@ -5,7 +5,7 @@ close all
 clear
 clc
 
-db_path = 'J:/_VideoDatabase/';
+db_path = 'J:/_VideoDatabase/';  % Change to your PATH of databases
 database = {'LIVE', 'CSIQ', 'IVPL', 'IVC-IC'};
 RofCell   = 2;
 RofRegion = 48;
@@ -16,7 +16,7 @@ n_snippets = 10;
 for i = 1
     db_name = database{i};
     
-    data = load([db_path, db_name, '/', db_name, '-v.mat']);
+    data = load([db_path, db_name, '/', db_name, '-v.mat']);  % database info is summarized in a `.mat` file; We provide the `.mat` file in the folder './info'
     len = length(data.dst_name);
     
     for j = 1:len          % for each video
