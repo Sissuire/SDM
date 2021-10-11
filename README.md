@@ -21,7 +21,7 @@ Example code would be seen in `demo_loop.py` or `demo_IVC-IC.py`. More details c
 
 ### Environment
 
-The method is implemented with MATLAB R2016a, OpenCV 2.4.13 on windows for feature extraction, and PyTorch 1.1.0, numpy 1.14.3 on Ubuntu for sequential modeling. Different versions may occur slight changes in performance.
+The method is implemented with MATLAB R2016a, OpenCV 2.4.13 on windows for feature extraction, and Python 3.6.5, scipy 1.1.0, numpy 1.14.3, PyTorch 1.1.0 on Ubuntu for sequential modeling. Different versions may occur slight changes in performance.
 
 
 ### Cite
