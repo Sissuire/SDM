@@ -33,12 +33,13 @@ If you are interested in the work, or find the code helpful, please cite our wor
   author={Liu, Yongxu and Wu, Jinjian and Li, Aobo and Li, Leida and Dong, Weisheng and Shi, Guangming and Lin, Weisi},
   journal={IEEE Transactions on Multimedia}, 
   title={Video Quality Assessment with Serial Dependence Modeling}, 
-  year={2021},
-  volume={},
+  year={2022},
+  volume={24},
   number={},
-  pages={1-1},
-  doi={10.1109/TMM.2021.3107148}}
+  pages={3754-3768},
+  doi={10.1109/TMM.2021.3107148}
+}
 ```
 ### Contact
 
-If any question or bug, feel free to contact me via `yongxu.liu@stu.xidian.edu.cn`.
+If any question or bug, feel free to contact me via `yongxu.liu@xidian.edu.cn`.
